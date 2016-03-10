@@ -15,6 +15,10 @@
 		130428691C90EB5B00CD4ACC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 130428671C90EB5B00CD4ACC /* LaunchScreen.xib */; };
 		130428751C90EB5B00CD4ACC /* UI_scrawl_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130428741C90EB5B00CD4ACC /* UI_scrawl_01Tests.m */; };
 		130428801C90F0AC00CD4ACC /* myPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1304287F1C90F0AC00CD4ACC /* myPoint.m */; };
+		136881131C91181B00E50E1E /* UIImage+myScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 136881121C91181B00E50E1E /* UIImage+myScreen.m */; };
+		1368811A1C9119CF00E50E1E /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 136881161C9119CF00E50E1E /* MBProgressHUD+MJ.m */; };
+		1368811B1C9119CF00E50E1E /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 136881171C9119CF00E50E1E /* MBProgressHUD.bundle */; };
+		1368811C1C9119CF00E50E1E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 136881191C9119CF00E50E1E /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,13 @@
 		130428741C90EB5B00CD4ACC /* UI_scrawl_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI_scrawl_01Tests.m; sourceTree = "<group>"; };
 		1304287E1C90F0AC00CD4ACC /* myPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPoint.h; sourceTree = "<group>"; };
 		1304287F1C90F0AC00CD4ACC /* myPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPoint.m; sourceTree = "<group>"; };
+		136881111C91181B00E50E1E /* UIImage+myScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+myScreen.h"; sourceTree = "<group>"; };
+		136881121C91181B00E50E1E /* UIImage+myScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+myScreen.m"; sourceTree = "<group>"; };
+		136881151C9119CF00E50E1E /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		136881161C9119CF00E50E1E /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		136881171C9119CF00E50E1E /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		136881181C9119CF00E50E1E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		136881191C9119CF00E50E1E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +95,7 @@
 		130428571C90EB5B00CD4ACC /* UI_scrawl_01 */ = {
 			isa = PBXGroup;
 			children = (
+				136881141C9119CF00E50E1E /* MBProgressHUD */,
 				1304285C1C90EB5B00CD4ACC /* AppDelegate.h */,
 				1304285D1C90EB5B00CD4ACC /* AppDelegate.m */,
 				1304285F1C90EB5B00CD4ACC /* ViewController.h */,
@@ -94,6 +106,8 @@
 				130428581C90EB5B00CD4ACC /* Supporting Files */,
 				1304287E1C90F0AC00CD4ACC /* myPoint.h */,
 				1304287F1C90F0AC00CD4ACC /* myPoint.m */,
+				136881111C91181B00E50E1E /* UIImage+myScreen.h */,
+				136881121C91181B00E50E1E /* UIImage+myScreen.m */,
 			);
 			path = UI_scrawl_01;
 			sourceTree = "<group>";
@@ -122,6 +136,18 @@
 				130428731C90EB5B00CD4ACC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		136881141C9119CF00E50E1E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				136881151C9119CF00E50E1E /* MBProgressHUD+MJ.h */,
+				136881161C9119CF00E50E1E /* MBProgressHUD+MJ.m */,
+				136881171C9119CF00E50E1E /* MBProgressHUD.bundle */,
+				136881181C9119CF00E50E1E /* MBProgressHUD.h */,
+				136881191C9119CF00E50E1E /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				130428641C90EB5B00CD4ACC /* Main.storyboard in Resources */,
+				1368811B1C9119CF00E50E1E /* MBProgressHUD.bundle in Resources */,
 				130428691C90EB5B00CD4ACC /* LaunchScreen.xib in Resources */,
 				130428661C90EB5B00CD4ACC /* Images.xcassets in Resources */,
 			);
@@ -224,10 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1368811A1C9119CF00E50E1E /* MBProgressHUD+MJ.m in Sources */,
 				130428801C90F0AC00CD4ACC /* myPoint.m in Sources */,
+				136881131C91181B00E50E1E /* UIImage+myScreen.m in Sources */,
 				130428611C90EB5B00CD4ACC /* ViewController.m in Sources */,
 				1304285E1C90EB5B00CD4ACC /* AppDelegate.m in Sources */,
 				1304285B1C90EB5B00CD4ACC /* main.m in Sources */,
+				1368811C1C9119CF00E50E1E /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +448,7 @@
 				1304287A1C90EB5B00CD4ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1304287B1C90EB5B00CD4ACC /* Build configuration list for PBXNativeTarget "UI_scrawl_01Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +457,7 @@
 				1304287D1C90EB5B00CD4ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

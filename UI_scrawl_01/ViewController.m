@@ -7,8 +7,16 @@
 //
 
 #import "ViewController.h"
-
+#import "myPoint.h"
+#import "UIImage+myScreen.h"
+#import "MBProgressHUD+MJ.h"
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet myPoint *viewOptions;
+
+- (IBAction)ClickClear;
+- (IBAction)ClickLastOption;
+- (IBAction)ClickSavePic;
 
 @end
 
@@ -16,12 +24,47 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)ClickClear {
+    [self.viewOptions clear];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)ClickLastOption {
+    [self.viewOptions lastOperation];
+}
+
+- (IBAction)ClickSavePic {
+    UIImage *i_mage=[UIImage captureWithView:self.viewOptions];
+    UIImageWriteToSavedPhotosAlbum(i_mage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+}
+- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo{
+    if(error){
+        [MBProgressHUD showError:@"保存失败"];
+    }
+    else {
+        [MBProgressHUD showSuccess:@"成功保存"];
+    }
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -21,27 +21,39 @@
                                 <state key="normal" title="清屏">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="ClickClear" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kuR-B8-Oen"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bt-0j-kNn">
                                 <rect key="frame" x="126" y="48" width="69" height="37"/>
                                 <state key="normal" title="回退">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xBG-VH-8VI">
-                                <rect key="frame" x="222" y="48" width="69" height="37"/>
-                                <state key="normal" title="保存">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <connections>
+                                    <action selector="ClickLastOption" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Y55-rb-vTH"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nBh-rx-I7A" customClass="myPoint">
                                 <rect key="frame" x="28" y="90" width="265" height="370"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xBG-VH-8VI">
+                                <rect key="frame" x="224" y="48" width="69" height="37"/>
+                                <state key="normal" title="保存">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ClickSavePic" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Hxf-X7-FLI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="viewOptions" destination="nBh-rx-I7A" id="JB7-Lp-abS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

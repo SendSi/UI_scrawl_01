@@ -1,5 +1,5 @@
 //
-//  myPoint.h
+//  UIImage+myScreen.h
 //  UI_scrawl_01
 //
 //  Created by scuplt on 16-3-9.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface myPoint : UIView
-/** 清除 */
--(void)clear;
-/** 上一步 */
--(void)lastOperation;
+@interface UIImage (myScreen)
+
++(instancetype) captureWithView:(UIView *)view;
+
 @end
