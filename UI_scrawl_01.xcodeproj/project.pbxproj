@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130117FE1C91BF5000EFD5C5 /* myPoint2.m in Sources */ = {isa = PBXBuildFile; fileRef = 130117FD1C91BF5000EFD5C5 /* myPoint2.m */; };
+		130118011C91BF7500EFD5C5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 130118001C91BF7500EFD5C5 /* ViewController2.m */; };
 		1304285B1C90EB5B00CD4ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1304285A1C90EB5B00CD4ACC /* main.m */; };
 		1304285E1C90EB5B00CD4ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1304285D1C90EB5B00CD4ACC /* AppDelegate.m */; };
 		130428611C90EB5B00CD4ACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130428601C90EB5B00CD4ACC /* ViewController.m */; };
@@ -32,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		130117FC1C91BF5000EFD5C5 /* myPoint2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPoint2.h; sourceTree = "<group>"; };
+		130117FD1C91BF5000EFD5C5 /* myPoint2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPoint2.m; sourceTree = "<group>"; };
+		130117FF1C91BF7500EFD5C5 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		130118001C91BF7500EFD5C5 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		130428551C90EB5B00CD4ACC /* UI_scrawl_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_scrawl_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		130428591C90EB5B00CD4ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1304285A1C90EB5B00CD4ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +114,10 @@
 				1304287F1C90F0AC00CD4ACC /* myPoint.m */,
 				136881111C91181B00E50E1E /* UIImage+myScreen.h */,
 				136881121C91181B00E50E1E /* UIImage+myScreen.m */,
+				130117FC1C91BF5000EFD5C5 /* myPoint2.h */,
+				130117FD1C91BF5000EFD5C5 /* myPoint2.m */,
+				130117FF1C91BF7500EFD5C5 /* ViewController2.h */,
+				130118001C91BF7500EFD5C5 /* ViewController2.m */,
 			);
 			path = UI_scrawl_01;
 			sourceTree = "<group>";
@@ -256,8 +266,10 @@
 				136881131C91181B00E50E1E /* UIImage+myScreen.m in Sources */,
 				130428611C90EB5B00CD4ACC /* ViewController.m in Sources */,
 				1304285E1C90EB5B00CD4ACC /* AppDelegate.m in Sources */,
+				130118011C91BF7500EFD5C5 /* ViewController2.m in Sources */,
 				1304285B1C90EB5B00CD4ACC /* main.m in Sources */,
 				1368811C1C9119CF00E50E1E /* MBProgressHUD.m in Sources */,
+				130117FE1C91BF5000EFD5C5 /* myPoint2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
