@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/**  截图   */
 @interface UIImage (myScreen)
 
 +(instancetype) captureWithView:(UIView *)view;

@@ -17,6 +17,10 @@
 		130428691C90EB5B00CD4ACC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 130428671C90EB5B00CD4ACC /* LaunchScreen.xib */; };
 		130428751C90EB5B00CD4ACC /* UI_scrawl_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130428741C90EB5B00CD4ACC /* UI_scrawl_01Tests.m */; };
 		130428801C90F0AC00CD4ACC /* myPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1304287F1C90F0AC00CD4ACC /* myPoint.m */; };
+		130AEE9C1C95856F0006A52A /* myPoint_drag.m in Sources */ = {isa = PBXBuildFile; fileRef = 130AEE9B1C95856F0006A52A /* myPoint_drag.m */; };
+		131204411C923D8B00C1481A /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 131204401C923D8B00C1481A /* ViewController3.m */; };
+		131204441C923DAB00C1481A /* myPoint3.m in Sources */ = {isa = PBXBuildFile; fileRef = 131204431C923DAB00C1481A /* myPoint3.m */; };
+		13177E961C95901500079E5B /* UIImage+ScreenOpen___________________.m in Sources */ = {isa = PBXBuildFile; fileRef = 13177E951C95901500079E5B /* UIImage+ScreenOpen___________________.m */; };
 		136881131C91181B00E50E1E /* UIImage+myScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 136881121C91181B00E50E1E /* UIImage+myScreen.m */; };
 		1368811A1C9119CF00E50E1E /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 136881161C9119CF00E50E1E /* MBProgressHUD+MJ.m */; };
 		1368811B1C9119CF00E50E1E /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 136881171C9119CF00E50E1E /* MBProgressHUD.bundle */; };
@@ -53,6 +57,14 @@
 		130428741C90EB5B00CD4ACC /* UI_scrawl_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI_scrawl_01Tests.m; sourceTree = "<group>"; };
 		1304287E1C90F0AC00CD4ACC /* myPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPoint.h; sourceTree = "<group>"; };
 		1304287F1C90F0AC00CD4ACC /* myPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPoint.m; sourceTree = "<group>"; };
+		130AEE9A1C95856F0006A52A /* myPoint_drag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPoint_drag.h; sourceTree = "<group>"; };
+		130AEE9B1C95856F0006A52A /* myPoint_drag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPoint_drag.m; sourceTree = "<group>"; };
+		1312043F1C923D8B00C1481A /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		131204401C923D8B00C1481A /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		131204421C923DAB00C1481A /* myPoint3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPoint3.h; sourceTree = "<group>"; };
+		131204431C923DAB00C1481A /* myPoint3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPoint3.m; sourceTree = "<group>"; };
+		13177E941C95901500079E5B /* UIImage+ScreenOpen___________________.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScreenOpen___________________.h"; sourceTree = "<group>"; };
+		13177E951C95901500079E5B /* UIImage+ScreenOpen___________________.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScreenOpen___________________.m"; sourceTree = "<group>"; };
 		136881111C91181B00E50E1E /* UIImage+myScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+myScreen.h"; sourceTree = "<group>"; };
 		136881121C91181B00E50E1E /* UIImage+myScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+myScreen.m"; sourceTree = "<group>"; };
 		136881151C9119CF00E50E1E /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
@@ -101,23 +113,14 @@
 		130428571C90EB5B00CD4ACC /* UI_scrawl_01 */ = {
 			isa = PBXGroup;
 			children = (
+				13177E931C958CFF00079E5B /* other */,
+				1312043E1C923D1200C1481A /* L03 */,
+				1312043D1C923CBA00C1481A /* L02 */,
+				1312043C1C923C8600C1481A /* L01 */,
 				136881141C9119CF00E50E1E /* MBProgressHUD */,
-				1304285C1C90EB5B00CD4ACC /* AppDelegate.h */,
-				1304285D1C90EB5B00CD4ACC /* AppDelegate.m */,
-				1304285F1C90EB5B00CD4ACC /* ViewController.h */,
-				130428601C90EB5B00CD4ACC /* ViewController.m */,
 				130428621C90EB5B00CD4ACC /* Main.storyboard */,
 				130428651C90EB5B00CD4ACC /* Images.xcassets */,
-				130428671C90EB5B00CD4ACC /* LaunchScreen.xib */,
 				130428581C90EB5B00CD4ACC /* Supporting Files */,
-				1304287E1C90F0AC00CD4ACC /* myPoint.h */,
-				1304287F1C90F0AC00CD4ACC /* myPoint.m */,
-				136881111C91181B00E50E1E /* UIImage+myScreen.h */,
-				136881121C91181B00E50E1E /* UIImage+myScreen.m */,
-				130117FC1C91BF5000EFD5C5 /* myPoint2.h */,
-				130117FD1C91BF5000EFD5C5 /* myPoint2.m */,
-				130117FF1C91BF7500EFD5C5 /* ViewController2.h */,
-				130118001C91BF7500EFD5C5 /* ViewController2.m */,
 			);
 			path = UI_scrawl_01;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 		130428581C90EB5B00CD4ACC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				131204451C92405000C1481A /* 0420 */,
 				130428591C90EB5B00CD4ACC /* Info.plist */,
 				1304285A1C90EB5B00CD4ACC /* main.m */,
 			);
@@ -146,6 +150,62 @@
 				130428731C90EB5B00CD4ACC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1312043C1C923C8600C1481A /* L01 */ = {
+			isa = PBXGroup;
+			children = (
+				1304287F1C90F0AC00CD4ACC /* myPoint.m */,
+				1304287E1C90F0AC00CD4ACC /* myPoint.h */,
+				1304285F1C90EB5B00CD4ACC /* ViewController.h */,
+				130428601C90EB5B00CD4ACC /* ViewController.m */,
+				130AEE9A1C95856F0006A52A /* myPoint_drag.h */,
+				130AEE9B1C95856F0006A52A /* myPoint_drag.m */,
+			);
+			name = L01;
+			sourceTree = "<group>";
+		};
+		1312043D1C923CBA00C1481A /* L02 */ = {
+			isa = PBXGroup;
+			children = (
+				130118001C91BF7500EFD5C5 /* ViewController2.m */,
+				130117FF1C91BF7500EFD5C5 /* ViewController2.h */,
+				130117FC1C91BF5000EFD5C5 /* myPoint2.h */,
+				130117FD1C91BF5000EFD5C5 /* myPoint2.m */,
+			);
+			name = L02;
+			sourceTree = "<group>";
+		};
+		1312043E1C923D1200C1481A /* L03 */ = {
+			isa = PBXGroup;
+			children = (
+				1312043F1C923D8B00C1481A /* ViewController3.h */,
+				131204401C923D8B00C1481A /* ViewController3.m */,
+				131204421C923DAB00C1481A /* myPoint3.h */,
+				131204431C923DAB00C1481A /* myPoint3.m */,
+			);
+			name = L03;
+			sourceTree = "<group>";
+		};
+		131204451C92405000C1481A /* 0420 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 0420;
+			sourceTree = "<group>";
+		};
+		13177E931C958CFF00079E5B /* other */ = {
+			isa = PBXGroup;
+			children = (
+				130428671C90EB5B00CD4ACC /* LaunchScreen.xib */,
+				1304285C1C90EB5B00CD4ACC /* AppDelegate.h */,
+				136881111C91181B00E50E1E /* UIImage+myScreen.h */,
+				136881121C91181B00E50E1E /* UIImage+myScreen.m */,
+				1304285D1C90EB5B00CD4ACC /* AppDelegate.m */,
+				13177E941C95901500079E5B /* UIImage+ScreenOpen___________________.h */,
+				13177E951C95901500079E5B /* UIImage+ScreenOpen___________________.m */,
+			);
+			name = other;
 			sourceTree = "<group>";
 		};
 		136881141C9119CF00E50E1E /* MBProgressHUD */ = {
@@ -261,14 +321,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13177E961C95901500079E5B /* UIImage+ScreenOpen___________________.m in Sources */,
 				1368811A1C9119CF00E50E1E /* MBProgressHUD+MJ.m in Sources */,
 				130428801C90F0AC00CD4ACC /* myPoint.m in Sources */,
 				136881131C91181B00E50E1E /* UIImage+myScreen.m in Sources */,
 				130428611C90EB5B00CD4ACC /* ViewController.m in Sources */,
+				131204411C923D8B00C1481A /* ViewController3.m in Sources */,
 				1304285E1C90EB5B00CD4ACC /* AppDelegate.m in Sources */,
+				130AEE9C1C95856F0006A52A /* myPoint_drag.m in Sources */,
 				130118011C91BF7500EFD5C5 /* ViewController2.m in Sources */,
 				1304285B1C90EB5B00CD4ACC /* main.m in Sources */,
 				1368811C1C9119CF00E50E1E /* MBProgressHUD.m in Sources */,
+				131204441C923DAB00C1481A /* myPoint3.m in Sources */,
 				130117FE1C91BF5000EFD5C5 /* myPoint2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
