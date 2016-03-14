@@ -7,8 +7,8 @@
 //
 
 #import "ViewController3.h"
-
-@interface ViewController3 ()
+#import "myPoint3.h"
+@interface ViewController3 ()<myPoint3Delegate>
 
 @end
 
@@ -23,7 +23,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)point3Read:(myPoint3 *)myP andNumbers:(NSString *)strNum{
+    NSLog(@"用户手势路径%@",strNum);
+}
 
 
 @end

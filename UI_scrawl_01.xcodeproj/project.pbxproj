@@ -25,6 +25,7 @@
 		1368811A1C9119CF00E50E1E /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 136881161C9119CF00E50E1E /* MBProgressHUD+MJ.m */; };
 		1368811B1C9119CF00E50E1E /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 136881171C9119CF00E50E1E /* MBProgressHUD.bundle */; };
 		1368811C1C9119CF00E50E1E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 136881191C9119CF00E50E1E /* MBProgressHUD.m */; };
+		1385A0151C96733E00B11477 /* myLockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1385A0141C96733E00B11477 /* myLockButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		136881171C9119CF00E50E1E /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		136881181C9119CF00E50E1E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		136881191C9119CF00E50E1E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1385A0131C96733E00B11477 /* myLockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myLockButton.h; sourceTree = "<group>"; };
+		1385A0141C96733E00B11477 /* myLockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myLockButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 				131204401C923D8B00C1481A /* ViewController3.m */,
 				131204421C923DAB00C1481A /* myPoint3.h */,
 				131204431C923DAB00C1481A /* myPoint3.m */,
+				1385A0131C96733E00B11477 /* myLockButton.h */,
+				1385A0141C96733E00B11477 /* myLockButton.m */,
 			);
 			name = L03;
 			sourceTree = "<group>";
@@ -325,6 +330,7 @@
 				1368811A1C9119CF00E50E1E /* MBProgressHUD+MJ.m in Sources */,
 				130428801C90F0AC00CD4ACC /* myPoint.m in Sources */,
 				136881131C91181B00E50E1E /* UIImage+myScreen.m in Sources */,
+				1385A0151C96733E00B11477 /* myLockButton.m in Sources */,
 				130428611C90EB5B00CD4ACC /* ViewController.m in Sources */,
 				131204411C923D8B00C1481A /* ViewController3.m in Sources */,
 				1304285E1C90EB5B00CD4ACC /* AppDelegate.m in Sources */,
